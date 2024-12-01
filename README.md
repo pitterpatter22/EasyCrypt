@@ -26,15 +26,15 @@ I am sure there is an easier and more secure way of doing this, but for my use c
 - **Progress Tracking**: Provides real-time progress updates and status messages during encryption/decryption processes.
 - **Password Management**: Allows users to save and import encryption codes, and reset passwords when needed.
 
+<details>
+
 ## Example
 
 Look in the [Tests Folder](tests/) for the files referenced below.
 
 <details>
 
-
 ### Before encryption
-<details>
 
 #### Output:
 ```
@@ -53,9 +53,10 @@ Encryption Key:
 `9b924fd18445ed339392b143f435522a`
 </details>
 
+<details>
+
 ### After Encryption
 
-<details>
 Encrypted using these answers:
 
 ![Encryption Answers](screenshots/easycrypt_test_encrypt_values.png)
@@ -79,8 +80,9 @@ tests/after_encryption
 
 </details>
 
-### After Decryption
 <details>
+
+### After Decryption
 
 #### Output:
 ```
@@ -129,8 +131,9 @@ The encryption password is generated based on the user’s answers to a set of q
 
 ## Usage Instructions
 
-### GUI Mode
 <details>
+
+### GUI Mode
 
 1. **Launch the Application**: Run the EasyCrypt executable.
 2. **Password Setup**:
@@ -149,8 +152,9 @@ The encryption password is generated based on the user’s answers to a set of q
 </details>
 
 
-### CLI Mode
 <details>
+
+### CLI Mode
 
 1. **Run the Application in CLI Mode**: Execute `python easycrypt.py --cli`.
 2. **Password Setup**: Answer the prompted questions to generate your encryption code.
@@ -192,11 +196,11 @@ You can package the application into a standalone executable using PyInstaller:
    ```
 
 
+<details>
 
-## <Screenshots>
+## Screenshots
 
 ![Main GUI](screenshots/easycrypt_main.png)
 ![Password Setup GUI](screenshots/easycrypt_password_setup.png)
 ![Main CLI](screenshots/easycrypt_cli.png)
-
-</Screenshots>
+</details>
