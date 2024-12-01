@@ -26,6 +26,77 @@ I am sure there is an easier and more secure way of doing this, but for my use c
 - **Progress Tracking**: Provides real-time progress updates and status messages during encryption/decryption processes.
 - **Password Management**: Allows users to save and import encryption codes, and reset passwords when needed.
 
+## Example
+<details>
+
+Look in the ![Tests Folder](tests/) for the files referenced below.
+
+
+## Before encryption
+<details>
+
+```
+tests/before_encrypt
+├── test1
+├── test2
+├── test_folder1
+│   ├── test3
+│   └── test4
+└── test_folder2
+    ├── test5
+    └── test6
+```
+
+Encryption Key:
+`9b924fd18445ed339392b143f435522a`
+
+</details>
+
+## After Encryption
+
+<details>
+
+Encrypted using these answers:
+![Encryption Answers](screenshots/easycrypt_test_encrypt_values.png)
+
+### Output:
+```
+tests/after_encryption
+├── 59bab0c6582ac3bbad00022ae591057a021b8545f7726d3e1c459dcb4b49bbc8
+│   ├── a140c0c1eda2def2b830363ba362aa4d7d255c262960544821f556e16661b6ff.enc
+│   └── ed0cb90bdfa4f93981a7d03cff99213a86aa96a6cbcf89ec5e8889871f088727.enc
+├── a94bf18528dfa07e398e76f9c9c16313515b7ecea293868737cb6a36500bb848
+│   ├── a4e624d686e03ed2767c0abd85c14426b0b1157d2ce81d27bb4fe4f6f01d688a.enc
+│   └── fd61a03af4f77d870fc21e05e7e80678095c92d808cfb3b5c279ee04c74aca13.enc
+├── e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+│   ├── 1b4f0e9851971998e732078544c96b36c3d01cedf7caa332359d6f1d83567014.enc
+│   ├── 60303ae22b998861bce3b28f33eec1be758a213c86c93c076dbe9f558c11c752.enc
+│   └── e2eb93a61ffd7877ea5c751abcb3a618e8e2e9a2073a27f66d4114fe10819f86.enc
+└── metadata.json.enc
+```
+![Encryption Output](screenshots/easycrypt_test_encrypt.png)
+
+</details>
+
+## After Decryption
+<details>
+
+```
+tests/after_decryption
+├── test1
+├── test2
+├── test_folder1
+│   ├── test3
+│   └── test4
+└── test_folder2
+    ├── test5
+    └── test6
+```
+
+![Decryption Output](screenshots/easycrypt_test_decrypt.png)
+</details>
+</details>
+
 
 ## How It Works
 
