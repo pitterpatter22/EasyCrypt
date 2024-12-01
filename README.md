@@ -26,13 +26,16 @@ I am sure there is an easier and more secure way of doing this, but for my use c
 - **Progress Tracking**: Provides real-time progress updates and status messages during encryption/decryption processes.
 - **Password Management**: Allows users to save and import encryption codes, and reset passwords when needed.
 
-<details>
 
 ## Example
+
 
 Look in the [Tests Folder](tests/) for the files referenced below.
 
 <details>
+<summary>
+Before Encryption
+</summary>
 
 ### Before encryption
 
@@ -51,9 +54,14 @@ tests/before_encrypt
 
 Encryption Key:
 `9b924fd18445ed339392b143f435522a`
+
 </details>
 
+
 <details>
+<summary>
+After Encryption
+</summary>
 
 ### After Encryption
 
@@ -79,8 +87,10 @@ tests/after_encryption
 ![Encryption Output](screenshots/easycrypt_test_encrypt.png)
 
 </details>
-
 <details>
+<summary>
+After Decryption
+</summary>
 
 ### After Decryption
 
@@ -98,7 +108,7 @@ tests/after_decryption
 ```
 
 ![Decryption Output](screenshots/easycrypt_test_decrypt.png)
-</details>
+
 </details>
 
 ## How It Works
@@ -131,8 +141,6 @@ The encryption password is generated based on the user’s answers to a set of q
 
 ## Usage Instructions
 
-<details>
-
 ### GUI Mode
 
 1. **Launch the Application**: Run the EasyCrypt executable.
@@ -149,10 +157,6 @@ The encryption password is generated based on the user’s answers to a set of q
    - Use ‘Save Encryption Code’ to save your current encryption code to a file.
    - Use ‘Import Encryption Code’ on the password setup dialog to load a saved code.
 8. **Exit**: Click the red ‘Quit’ button to exit the application.
-</details>
-
-
-<details>
 
 ### CLI Mode
 
@@ -162,7 +166,7 @@ The encryption password is generated based on the user’s answers to a set of q
 4. **Select Files/Folders**: Provide paths to the files or folders to process.
 5. **Process Items**: The tool will encrypt or decrypt the selected items.
 6. **Repeat or Exit**: Choose to process more items with the same or new password, or exit the application.
-</details>
+
 
 ## Requirements
 
@@ -195,11 +199,12 @@ You can package the application into a standalone executable using PyInstaller:
    pyinstaller --onefile --windowed --collect-submodules PyQt6 easycrypt.py
    ```
 
-
 <details>
+<summary>
+Screenshots
+</summary>
 
 ## Screenshots
-
 ![Main GUI](screenshots/easycrypt_main.png)
 ![Password Setup GUI](screenshots/easycrypt_password_setup.png)
 ![Main CLI](screenshots/easycrypt_cli.png)
