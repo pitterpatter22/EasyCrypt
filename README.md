@@ -1,8 +1,22 @@
-# EasyCrypt Tool
+# EasyCrypt
 
 ## Description
 
 EasyCrypt is a user-friendly encryption and decryption tool designed to securely encrypt and decrypt files and folders. It uses strong cryptographic algorithms to ensure data security and provides both a graphical user interface (GUI) and a command-line interface (CLI) for flexibility.
+
+[Screenshots Below!](#screenshots)
+
+### Why?
+
+I have been backing up files/documents to CD-DVD disks to get closer to 3-2-1 Backup Methodology but quickly ran into a problem managing encryption keys while also making the encryption keys available to family. I had two options, use the same key for each disk but risk losing all the data if I forgot it, or have a new key for each disk but risk forgetting them. Of course, there was the option to not encrypt at all, but that is way too easy. 
+
+I made this project to simplify the process of backing up and encrypting files using a list of questions and a unique id so I (and family members) would not have to risk forgetting a key and losing all the data.
+
+My idea was to have a list of questions that any member in my family would have the same answer for plus an "id" for the data, hash those answers, and then generate a unique key. See [Password Generation](#Password-Generation) for more specifics. 
+
+### Disclosure
+
+I am sure there is an easier and more secure way of doing this, but for my use case, it works pretty well. I am also sure there is some logic error that makes the keys crackable by a very persistant actor, but my goal is to protect the data from any random person reading my documents. 
 
 ### Key Features
 
@@ -11,6 +25,7 @@ EasyCrypt is a user-friendly encryption and decryption tool designed to securely
 - **GUI and CLI Support**: Offers both graphical and command-line interfaces to cater to different user preferences.
 - **Progress Tracking**: Provides real-time progress updates and status messages during encryption/decryption processes.
 - **Password Management**: Allows users to save and import encryption codes, and reset passwords when needed.
+
 
 ## How It Works
 
@@ -98,3 +113,11 @@ You can package the application into a standalone executable using PyInstaller:
    ```bash
    pyinstaller --onefile --windowed --collect-submodules PyQt6 easycrypt.py
    ```
+
+
+
+## Screenshots
+
+![Main GUI](screenshots/easycrypt_main.png)
+![Password Setup GUI](screenshots/easycrypt_password_setup.png)
+![Main CLI](screenshots/easycrypt_cli.png)
