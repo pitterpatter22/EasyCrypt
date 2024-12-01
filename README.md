@@ -4,7 +4,7 @@
 
 EasyCrypt is a user-friendly encryption and decryption tool designed to securely encrypt and decrypt files and folders. It uses strong cryptographic algorithms to ensure data security and provides both a graphical user interface (GUI) and a command-line interface (CLI) for flexibility.
 
-[Screenshots Below!](#screenshots)
+[Screenshots Below!](#Screenshots)
 
 ### Why?
 
@@ -199,12 +199,12 @@ You can package the application into a standalone executable using PyInstaller:
    pyinstaller --onefile --windowed --collect-submodules PyQt6 easycrypt.py
    ```
 
+## Screenshots
+
 <details>
 <summary>
 Screenshots
 </summary>
-
-## Screenshots
 ![Main GUI](screenshots/easycrypt_main.png)
 ![Password Setup GUI](screenshots/easycrypt_password_setup.png)
 ![Main CLI](screenshots/easycrypt_cli.png)
