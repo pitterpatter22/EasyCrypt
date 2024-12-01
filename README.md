@@ -29,12 +29,13 @@ I am sure there is an easier and more secure way of doing this, but for my use c
 ## Example
 <details>
 
-Look in the ![Tests Folder](tests/) for the files referenced below.
+Look in the [Tests Folder](tests/) for the files referenced below.
 
 
 ## Before encryption
 <details>
 
+### Output:
 ```
 tests/before_encrypt
 ├── test1
@@ -49,13 +50,11 @@ tests/before_encrypt
 
 Encryption Key:
 `9b924fd18445ed339392b143f435522a`
-
 </details>
 
 ## After Encryption
 
 <details>
-
 Encrypted using these answers:
 ![Encryption Answers](screenshots/easycrypt_test_encrypt_values.png)
 
@@ -81,6 +80,7 @@ tests/after_encryption
 ## After Decryption
 <details>
 
+### Output:
 ```
 tests/after_decryption
 ├── test1
@@ -96,7 +96,6 @@ tests/after_decryption
 ![Decryption Output](screenshots/easycrypt_test_decrypt.png)
 </details>
 </details>
-
 
 ## How It Works
 
