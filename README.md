@@ -27,9 +27,10 @@ I am sure there is an easier and more secure way of doing this, but for my use c
 - **Password Management**: Allows users to save and import encryption codes, and reset passwords when needed.
 
 ## Example
-<details>
 
 Look in the [Tests Folder](tests/) for the files referenced below.
+
+<details>
 
 
 ### Before encryption
