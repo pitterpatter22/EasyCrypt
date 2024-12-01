@@ -32,10 +32,10 @@ I am sure there is an easier and more secure way of doing this, but for my use c
 Look in the [Tests Folder](tests/) for the files referenced below.
 
 
-## Before encryption
+### Before encryption
 <details>
 
-### Output:
+#### Output:
 ```
 tests/before_encrypt
 ├── test1
@@ -52,13 +52,14 @@ Encryption Key:
 `9b924fd18445ed339392b143f435522a`
 </details>
 
-## After Encryption
+### After Encryption
 
 <details>
 Encrypted using these answers:
+
 ![Encryption Answers](screenshots/easycrypt_test_encrypt_values.png)
 
-### Output:
+#### Output:
 ```
 tests/after_encryption
 ├── 59bab0c6582ac3bbad00022ae591057a021b8545f7726d3e1c459dcb4b49bbc8
@@ -77,10 +78,10 @@ tests/after_encryption
 
 </details>
 
-## After Decryption
+### After Decryption
 <details>
 
-### Output:
+#### Output:
 ```
 tests/after_decryption
 ├── test1
@@ -128,6 +129,7 @@ The encryption password is generated based on the user’s answers to a set of q
 ## Usage Instructions
 
 ### GUI Mode
+<details>
 
 1. **Launch the Application**: Run the EasyCrypt executable.
 2. **Password Setup**:
@@ -143,8 +145,11 @@ The encryption password is generated based on the user’s answers to a set of q
    - Use ‘Save Encryption Code’ to save your current encryption code to a file.
    - Use ‘Import Encryption Code’ on the password setup dialog to load a saved code.
 8. **Exit**: Click the red ‘Quit’ button to exit the application.
+</details>
+
 
 ### CLI Mode
+<details>
 
 1. **Run the Application in CLI Mode**: Execute `python easycrypt.py --cli`.
 2. **Password Setup**: Answer the prompted questions to generate your encryption code.
@@ -152,6 +157,7 @@ The encryption password is generated based on the user’s answers to a set of q
 4. **Select Files/Folders**: Provide paths to the files or folders to process.
 5. **Process Items**: The tool will encrypt or decrypt the selected items.
 6. **Repeat or Exit**: Choose to process more items with the same or new password, or exit the application.
+</details>
 
 ## Requirements
 
