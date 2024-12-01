@@ -205,7 +205,13 @@ You can package the application into a standalone executable using PyInstaller:
 <summary>
 Screenshots
 </summary>
+
 ![Main GUI](screenshots/easycrypt_main.png)
 ![Password Setup GUI](screenshots/easycrypt_password_setup.png)
 ![Main CLI](screenshots/easycrypt_cli.png)
+![Encryption Answers](screenshots/easycrypt_test_encrypt_values.png)
+![Encryption Output](screenshots/easycrypt_test_encrypt.png)
+![Decryption Output](screenshots/easycrypt_test_decrypt.png)
+
+
 </details>
